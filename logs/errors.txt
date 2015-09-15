@@ -1,0 +1,513 @@
+
+ReferenceError: name is not defined
+    at img (/home/ubuntu/workspace/chat-plugins/profile.js:68:70)
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:94:46)
+    at Profile.buttonAvatar (/home/ubuntu/workspace/chat-plugins/profile.js:108:103)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:142:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:162:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+ReferenceError: name is not defined
+    at img (/home/ubuntu/workspace/chat-plugins/profile.js:68:70)
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:94:46)
+    at Profile.buttonAvatar (/home/ubuntu/workspace/chat-plugins/profile.js:108:103)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:142:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:162:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+ReferenceError: name is not defined
+    at img (/home/ubuntu/workspace/chat-plugins/profile.js:68:70)
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:94:46)
+    at Profile.buttonAvatar (/home/ubuntu/workspace/chat-plugins/profile.js:108:103)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:142:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:162:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+ReferenceError: username is not defined
+    at img (/home/ubuntu/workspace/chat-plugins/profile.js:67:70)
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:93:46)
+    at Profile.buttonAvatar (/home/ubuntu/workspace/chat-plugins/profile.js:107:103)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:141:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:138:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:161:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+ReferenceError: username is not defined
+    at img (/home/ubuntu/workspace/chat-plugins/profile.js:67:70)
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:93:46)
+    at Profile.buttonAvatar (/home/ubuntu/workspace/chat-plugins/profile.js:107:103)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:141:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:138:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:161:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+ReferenceError: user is not defined
+    at img (/home/ubuntu/workspace/chat-plugins/profile.js:67:70)
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:93:46)
+    at Profile.buttonAvatar (/home/ubuntu/workspace/chat-plugins/profile.js:107:103)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:141:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:138:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:161:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+TypeError: Cannot read property 'name' of undefined
+    at img (/home/ubuntu/workspace/chat-plugins/profile.js:67:22)
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:94:46)
+    at Profile.buttonAvatar (/home/ubuntu/workspace/chat-plugins/profile.js:108:103)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:142:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:162:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+TypeError: Cannot read property 'undefined' of undefined
+    at img (/home/ubuntu/workspace/chat-plugins/profile.js:68:69)
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:94:46)
+    at Profile.buttonAvatar (/home/ubuntu/workspace/chat-plugins/profile.js:108:103)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:142:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:162:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+TypeError: Cannot read property 'undefined' of undefined
+    at img (/home/ubuntu/workspace/chat-plugins/profile.js:68:69)
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:94:46)
+    at Profile.buttonAvatar (/home/ubuntu/workspace/chat-plugins/profile.js:108:103)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:142:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:162:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+ReferenceError: user is not defined
+    at img (/home/ubuntu/workspace/chat-plugins/profile.js:67:76)
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:93:46)
+    at Profile.buttonAvatar (/home/ubuntu/workspace/chat-plugins/profile.js:107:103)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:141:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:138:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:161:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+ReferenceError: name is not defined
+    at img (/home/ubuntu/workspace/chat-plugins/profile.js:67:70)
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:93:46)
+    at Profile.buttonAvatar (/home/ubuntu/workspace/chat-plugins/profile.js:107:103)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:141:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:138:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:161:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile dragotic
+
+ReferenceError: user is not defined
+    at img (/home/ubuntu/workspace/chat-plugins/profile.js:67:74)
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:93:46)
+    at Profile.buttonAvatar (/home/ubuntu/workspace/chat-plugins/profile.js:107:103)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:141:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:138:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:161:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+ReferenceError: userid is not defined
+    at img (/home/ubuntu/workspace/chat-plugins/profile.js:67:59)
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:94:46)
+    at Profile.buttonAvatar (/home/ubuntu/workspace/chat-plugins/profile.js:108:103)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:142:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:162:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+ReferenceError: dragotic is not defined
+    at img (/home/ubuntu/workspace/chat-plugins/profile.js:67:59)
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:94:46)
+    at Profile.buttonAvatar (/home/ubuntu/workspace/chat-plugins/profile.js:108:103)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:142:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:162:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+ReferenceError: name is not defined
+    at img (/home/ubuntu/workspace/chat-plugins/profile.js:67:91)
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:94:46)
+    at Profile.buttonAvatar (/home/ubuntu/workspace/chat-plugins/profile.js:108:103)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:142:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:162:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+TypeError: Cannot read property 'undefined' of undefined
+    at img (/home/ubuntu/workspace/chat-plugins/profile.js:67:90)
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:94:46)
+    at Profile.buttonAvatar (/home/ubuntu/workspace/chat-plugins/profile.js:108:103)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:142:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:162:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+ReferenceError: target is not defined
+    at img (/home/ubuntu/workspace/chat-plugins/profile.js:67:19)
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:97:46)
+    at Profile.buttonAvatar (/home/ubuntu/workspace/chat-plugins/profile.js:111:103)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:145:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:142:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:165:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+ReferenceError: economy is not defined
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:37:15)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+ReferenceError: seenData is not defined
+    at showProfile (/home/ubuntu/workspace/chat-plugins/profile.js:72:9)
+    at IncomingMessage.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:59:8)
+    at IncomingMessage.emit (events.js:117:20)
+    at _stream_readable.js:944:16
+    at process._tickCallback (node.js:442:13)
+
+ReferenceError: seenData is not defined
+    at showProfile (/home/ubuntu/workspace/chat-plugins/profile.js:72:9)
+    at IncomingMessage.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:59:8)
+    at IncomingMessage.emit (events.js:117:20)
+    at _stream_readable.js:944:16
+    at process._tickCallback (node.js:442:13)
+
+ReferenceError: target is not defined
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:98:29)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:149:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:146:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:170:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile kuro
+
+TypeError: Object false has no method 'has'
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:525:49)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.processChatQueue (/home/ubuntu/workspace/users.js:1640:13)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:112:15)
+
+TypeError: Object #<Context> has no method 'show'
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:168:88)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+ReferenceError: target is not defined
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:94:30)
+    at Profile.buttonAvatar (/home/ubuntu/workspace/chat-plugins/profile.js:114:103)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:148:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:145:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:168:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+TypeError: Cannot read property 'name' of null
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:103:29)
+    at Profile.buttonAvatar (/home/ubuntu/workspace/chat-plugins/profile.js:114:103)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:148:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:145:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:168:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+TypeError: Cannot read property 'connected' of null
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:105:27)
+    at Profile.buttonAvatar (/home/ubuntu/workspace/chat-plugins/profile.js:114:103)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:148:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:145:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:168:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+TypeError: Cannot read property 'avatar' of null
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:106:34)
+    at Profile.buttonAvatar (/home/ubuntu/workspace/chat-plugins/profile.js:114:103)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:148:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:145:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:168:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+ReferenceError: user is not defined
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:148:31)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:145:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:168:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+TypeError: Cannot read property 'avatar' of null
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:95:18)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:147:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:144:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:167:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile kuro
+
+TypeError: Cannot read property 'name' of null
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:95:29)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:139:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:136:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:159:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile dragotic
+
+TypeError: Cannot read property 'name' of null
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:96:29)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:140:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:137:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:160:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile dragotic
+
+TypeError: Cannot read property 'name' of null
+    at Profile.avatar (/home/ubuntu/workspace/chat-plugins/profile.js:96:29)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:140:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:137:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:160:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile dragotic

@@ -164,9 +164,9 @@ exports.database = 'lowdb';
 
 // mysql configuration to create the connection to the database.
 exports.mysql = {
-	host: 'paradox',
-	user: 'paradox',
-	password: 'kuroanddragotic',
+	host: 'dragotica',
+	user: 'dragotica',
+	password: 'dragotic',
 	database: 'my_db'
 };
 
@@ -183,7 +183,7 @@ exports.customavatars = {
 };
 
 // custom avatars appear in profile by specifiying server url.
-exports.avatarurl = 'http://paradox.psim.us/';
+exports.avatarurl = 'http://paradox-boilerplate-dragotic-1.c9.io';
 
 // Tournament announcements
 // When tournaments are created in rooms listed below, they will be announced in
