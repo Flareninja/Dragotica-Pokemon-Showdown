@@ -1,0 +1,12 @@
+[
+{"title":"Lobby","isOfficial":true,"autojoin":true,"auth":{},"leagueauth":{},"founder":"dragotic"},
+{"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true},
+{"title":"Shadow Ban Room","isPrivate":true,"staffRoom":true,"addedUsers":{}},
+{"title":"Tournaments","isOfficial":true},
+{"title":"Casino","isOfficial":true},
+{"title":"Monotype","isOfficial":true},
+{"title":"1vs1","isOfficial":true},
+{"title":"OverUsed","isOfficial":true},
+{"title":"Dragotic's Room","modjoin":"+","modchat":"+","isPrivate":"hidden"},
+{"title":"The Pokemon League","auth":{},"leagueauth":{},"founder":"dragotic"}
+]
