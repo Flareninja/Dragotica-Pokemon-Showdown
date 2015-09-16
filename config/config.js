@@ -164,9 +164,9 @@ exports.database = 'lowdb';
 
 // mysql configuration to create the connection to the database.
 exports.mysql = {
-	host: 'dragotica',
-	user: 'dragotica',
-	password: 'dragotic',
+	host: 'test',
+	user: 'test',
+	password: 'test',
 	database: 'my_db'
 };
 
@@ -183,7 +183,7 @@ exports.customavatars = {
 };
 
 // custom avatars appear in profile by specifiying server url.
-exports.avatarurl = 'http://paradox-boilerplate-dragotic-1.c9.io';
+exports.avatarurl = '';
 
 // Tournament announcements
 // When tournaments are created in rooms listed below, they will be announced in
@@ -255,36 +255,6 @@ exports.grouplist = [
 		id: "admin",
 		name: "Administrator",
 		root: true,
-		console: true,
-		globalonly: true
-	},
-	{
-		symbol: '#',
-		id: "owner",
-		name: "Room Owner",
-		inherit: '@',
-		jurisdiction: 'u',
-		roommod: true,
-		roomdriver: true,
-		declare: true,
-		modchatall: true,
-		roomonly: true,
-		tournamentsmanagement: true
-	},
-	{
-		symbol: '♪',
-		id: "musician",
-		name: "Musician",
-		inherit: '&',
-		jurisdiction: 'u',
-		modchatall: true,
-		tournaments: true,
-		potd: true,
-		makeroom: true,
-		warn: true,
-		kick: true,
-		mute: true,
-		lock: true,
 		globalonly: true
 	},
 	{
@@ -300,6 +270,19 @@ exports.grouplist = [
 		rangeban: true,
 		potd: true,
 		disableladder: true,
+		tournamentsmanagement: true
+	},
+	{
+		symbol: '#',
+		id: "owner",
+		name: "Room Owner",
+		inherit: '@',
+		jurisdiction: 'u',
+		roommod: true,
+		roomdriver: true,
+		declare: true,
+		modchatall: true,
+		roomonly: true,
 		tournamentsmanagement: true
 	},
 	{
@@ -347,18 +330,6 @@ exports.grouplist = [
 		tournaments: true,
 		jeopardy: true,
 		joinbattle: true
-	},
-	{
-		symbol: '$',
-		id: "operator",
-		name: "Operator",
-		inherit: '+',
-		jurisdiction: 'u',
-		announce: true,
-		warn: true,
-		kick: true,
-		mute: true,
-		tournaments: true
 	},
 	{
 		symbol: '+',
