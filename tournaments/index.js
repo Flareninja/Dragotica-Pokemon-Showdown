@@ -742,6 +742,7 @@ Tournament = (function () {
 		}));
 		this.isEnded = true;
 		delete exports.tournaments[toId(this.room.id)];
+<<<<<<< HEAD
 		
 	//
 		// Tournament Winnings
@@ -792,6 +793,8 @@ Tournament = (function () {
 				this.room.addRaw("<b><font color='" + color + "'>" + Tools.escapeHTML(runnerUp) + "</font> has won " +  "<font color='" + color + "'>" + secondMoney + "</font>" + currencyName(secondMoney) + " for winning the tournament!</b>");
 			}
 		}
+=======
+>>>>>>> 4a2ce7127dc95736bb9efc778bd3b2e627d77a7c
 	};
 
 	return Tournament;

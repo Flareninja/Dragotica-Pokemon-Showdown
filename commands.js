@@ -199,15 +199,21 @@ var commands = exports.commands = {
 		}
 
 		var message = '|pm|' + user.getIdentity() + '|' + targetUser.getIdentity() + '|' + target;
+<<<<<<< HEAD
 		if (Users.ShadowBan.checkBanned(user)) {
 				Users.ShadowBan.addMessage(user, "To " + targetUser, target);
 				connection.sendTo(this, '|c|' + user.getIdentity(this.id) + '|' + message);
 			}else{ 
+=======
+>>>>>>> 4a2ce7127dc95736bb9efc778bd3b2e627d77a7c
 		user.send(message);
 		if (targetUser !== user) targetUser.send(message);
 		targetUser.lastPM = user.userid;
 		user.lastPM = targetUser.userid;
+<<<<<<< HEAD
 	}
+=======
+>>>>>>> 4a2ce7127dc95736bb9efc778bd3b2e627d77a7c
 	},
 	msghelp: ["/msg OR /whisper OR /w [username], [message] - Send a private message."],
 
@@ -236,6 +242,7 @@ var commands = exports.commands = {
 	},
 	unignorepmshelp: ["/unblockpms - Unblocks private messages. Block them with /blockpms."],
 
+<<<<<<< HEAD
 
 	staffaway: function (target, room, user) {
 		if (!this.can('lock')) return;
@@ -250,6 +257,23 @@ var commands = exports.commands = {
 		this.parse('/unblockchallenges');
 	},
 	staffbackhelp: ["/back - Unblocks challenges and/or private messages, if either are blocked."],
+=======
+	idle: 'away',
+	afk: 'away',
+	away: function (target, room, user) {
+		this.parse('/blockchallenges');
+		this.parse('/blockpms ' + target);
+	},
+	awayhelp: ["/away - Blocks challenges and private messages. Unblock them with /back."],
+
+	unaway: 'back',
+	unafk: 'back',
+	back: function () {
+		this.parse('/unblockpms');
+		this.parse('/unblockchallenges');
+	},
+	backhelp: ["/back - Unblocks challenges and/or private messages, if either are blocked."],
+>>>>>>> 4a2ce7127dc95736bb9efc778bd3b2e627d77a7c
 
 	makeprivatechatroom: 'makechatroom',
 	makechatroom: function (target, room, user, connection, cmd) {
@@ -434,7 +458,11 @@ var commands = exports.commands = {
 		if (!target) {
 			if (!this.canBroadcast()) return;
 			if (!room.introMessage) return this.sendReply("This room does not have an introduction set.");
+<<<<<<< HEAD
 			this.sendReply('|raw|<div class="infobox">' + room.introMessage + '</div>');
+=======
+			this.sendReply('|raw|<div class="infobox infobox-limited">' + room.introMessage + '</div>');
+>>>>>>> 4a2ce7127dc95736bb9efc778bd3b2e627d77a7c
 			if (!this.broadcasting && user.can('declare', null, room)) {
 				this.sendReply('Source:');
 				this.sendReplyBox('<code>/roomintro ' + Tools.escapeHTML(room.introMessage) + '</code>');
@@ -453,7 +481,11 @@ var commands = exports.commands = {
 
 		room.introMessage = target;
 		this.sendReply("(The room introduction has been changed to:)");
+<<<<<<< HEAD
 		this.sendReply('|raw|<div class="infobox">' + target + '</div>');
+=======
+		this.sendReply('|raw|<div class="infobox infobox-limited">' + target + '</div>');
+>>>>>>> 4a2ce7127dc95736bb9efc778bd3b2e627d77a7c
 
 		this.privateModCommand("(" + user.name + " changed the roomintro.)");
 

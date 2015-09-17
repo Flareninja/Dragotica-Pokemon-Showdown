@@ -571,12 +571,15 @@ User = (function () {
 				if (room.isPrivate === true) return ' ' + this.name;
 			}
 		}
+<<<<<<< HEAD
 		if (this.hiding) {
 			return ' ' + this.name;
 		}
 		if (this.customSymbol) {
 			return this.customSymbol + this.name;
 		}
+=======
+>>>>>>> 4a2ce7127dc95736bb9efc778bd3b2e627d77a7c
 		return this.group + this.name;
 	};
 	User.prototype.isStaff = false;

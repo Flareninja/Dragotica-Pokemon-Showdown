@@ -271,12 +271,16 @@ exports.BattleScripts = {
 
 		// Calculate true accuracy for gen 1, which uses 0-255.
 		if (accuracy !== true) {
+<<<<<<< HEAD
 			// Rage bug
 			if (move.id === 'rage' && pokemon.volatiles['ragemiss']) {
 				accuracy = 1;
 			} else {
 				accuracy = Math.floor(accuracy * 255 / 100);
 			}
+=======
+			accuracy = Math.floor(accuracy * 255 / 100);
+>>>>>>> 4a2ce7127dc95736bb9efc778bd3b2e627d77a7c
 			// Check also for accuracy modifiers.
 			if (!move.ignoreAccuracy) {
 				if (pokemon.boosts.accuracy > 0) {

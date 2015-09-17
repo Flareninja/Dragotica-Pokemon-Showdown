@@ -124,6 +124,10 @@ var commands = exports.commands = {
 	},
 	hosthelp: ["/host [ip] - Gets the host for a given IP. Requires: & ~"],
 
+<<<<<<< HEAD
+=======
+	searchip: 'ipsearch',
+>>>>>>> 4a2ce7127dc95736bb9efc778bd3b2e627d77a7c
 	ipsearchall: 'ipsearch',
 	hostsearch: 'ipsearch',
 	ipsearch: function (target, room, user, connection, cmd) {
@@ -1709,6 +1713,160 @@ var commands = exports.commands = {
 		"!coverage [move 1], [move 2] ... - Shows this information to everyone.",
 		"Adding the parameter 'all' or 'table' will display the information with a table of all type combinations."],
 
+<<<<<<< HEAD
+=======
+	statcalc: function (target, room, user) {
+		if (!this.canBroadcast()) return;
+		if (!target) return this.parse("/help statcalc");
+
+		var targets = target.split(' ');
+
+		var lvlSet, natureSet, ivSet, evSet, baseSet, modSet = false;
+
+		var level = 100;
+		var calcHP = false;
+		var nature = 1.0;
+		var iv = 31;
+		var ev = 252;
+		var statValue = -1;
+		var modifier = 0;
+		var positiveMod = true;
+
+		for (var i in targets) {
+			if (!lvlSet) {
+				if (targets[i].toLowerCase() === 'lc') {
+					level = 5;
+					lvlSet = true;
+					continue;
+				} else if (targets[i].toLowerCase() === 'vgc') {
+					level = 50;
+					lvlSet = true;
+					continue;
+				} else if (targets[i].toLowerCase().startsWith('lv') || targets[i].toLowerCase().startsWith('level')) {
+					level = parseInt(targets[i].replace(/\D/g, ''), 10);
+					lvlSet = true;
+					if (level < 1 || level > 9999) {
+						return this.sendReplyBox('Invalid value for level: ' + level);
+					}
+					continue;
+				}
+			}
+
+			if (targets[i].toLowerCase() === 'hp') {
+				calcHP = true;
+				continue;
+			}
+
+			if (!natureSet) {
+				if (targets[i] === 'boosting' || targets[i] === 'positive') {
+					nature = 1.1;
+					natureSet = true;
+					continue;
+				} else if (targets[i] === 'negative' || targets[i] === 'inhibiting') {
+					nature = 0.9;
+					natureSet = true;
+					continue;
+				} else if (targets[i] === 'neutral') {
+					continue;
+				}
+			}
+
+			if (!ivSet) {
+				if (targets[i].toLowerCase().endsWith('iv') || targets[i].toLowerCase().endsWith('ivs')) {
+					iv = parseInt(targets[i]);
+					ivSet = true;
+
+					if (isNaN(iv)) {
+						return this.sendReplyBox('Invalid value for IVs: ' + Tools.escapeHTML(targets[i]));
+					}
+
+					continue;
+				}
+			}
+
+			if (!evSet) {
+				if (targets[i].toLowerCase() === 'invested' || targets[i].toLowerCase() === 'max') {
+					evSet = true;
+				} else if (targets[i].toLowerCase() === 'uninvested') {
+					ev = 0;
+					evSet = true;
+				} else if (targets[i].toLowerCase().endsWith('ev') || targets[i].toLowerCase().endsWith('evs')) {
+					ev = parseInt(targets[i]);
+					evSet = true;
+
+					if (isNaN(ev)) {
+						return this.sendReplyBox('Invalid value for EVs: ' + Tools.escapeHTML(targets[i]));
+					}
+					if (ev > 255 || ev < 0) {
+						return this.sendReplyBox('The amount of EVs should be between 0 and 255.');
+					}
+
+					if (!natureSet) {
+						if (targets[i].indexOf('+') > -1) {
+							nature = 1.1;
+							natureSet = true;
+						} else if (targets[i].indexOf('-') > -1) {
+							nature = 0.9;
+							natureSet = true;
+						}
+					}
+
+					continue;
+				}
+			}
+
+			if (!modSet) {
+				if (targets[i] === 'scarf' || targets[i] === 'specs' || targets[i] === 'band') {
+					modifier = 1;
+					modSet = true;
+				} else if (targets[i].charAt(0) === '+') {
+					modifier = parseInt(targets[i].charAt(1));
+					modSet = true;
+				} else if (targets[i].charAt(0) === '-') {
+					positiveMod = false;
+					modifier = parseInt(targets[i].charAt(1));
+					modSet = true;
+				}
+				if (isNaN(modifier)) {
+					return this.sendReplyBox('Invalid value for modifier: ' + Tools.escapeHTML(modifier));
+				}
+				if (modifier > 6) {
+					return this.sendReplyBox('Modifier should be a number between -6 and +6');
+				}
+			}
+
+			var tempStat = parseInt(targets[i]);
+
+			if (!isNaN(tempStat) && !baseSet && tempStat > 0 && tempStat < 256) {
+				statValue = tempStat;
+				baseSet = true;
+			}
+		}
+
+		if (statValue < 0) {
+			return this.sendReplyBox('No valid value for base stat found.');
+		}
+
+		var output;
+
+		if (calcHP) {
+			output = (((iv + (2 * statValue) + (ev / 4) + 100) * level) / 100) + 10;
+		} else {
+			output = Math.floor((((iv + (2 * statValue) + (ev / 4)) * level) / 100) + 5) * nature;
+			if (positiveMod) {
+				output *= (2 + modifier) / 2;
+			} else {
+				output *= 2 / (2 + modifier);
+			}
+		}
+		return this.sendReplyBox('Base ' + statValue + (calcHP ? ' HP ' : ' ') + 'at level ' + level + ' with ' + iv + ' IVs, ' + ev + (nature === 1.1 ? '+' : (nature === 0.9 ? '-' : '')) + ' EVs' + (modifier > 0 && !calcHP ? ' at ' + (positiveMod ? '+' : '-') + modifier : '') + ': <b>' + Math.floor(output) + '</b>.');
+	},
+
+	statcalchelp: ["/statcalc [level] [base stat] [IVs] [nature] [EVs] [modifier] (only base stat is required) - Calculates what the actual stat of a Pokémon is with the given parameters. For example, '/statcalc lv50 100 30iv positive 252 scarf' calculates the speed of a base 100 scarfer with HP Ice in Battle Spot, and '/statcalc uninvested 90 neutral' calculates the attack of an uninvested Crobat.",
+		"!statcalc [level] [base stat] [IVs] [nature] [EVs] [modifier] (only base stat is required) - Shows this information to everyone.",
+		"Inputing 'hp' as an argument makes it use the formula for HP. Instead of giving nature, '+' and '-' can be appended to the EV amount to signify a boosting or inihibting nature."],
+
+>>>>>>> 4a2ce7127dc95736bb9efc778bd3b2e627d77a7c
 	/*********************************************************
 	 * Informational commands
 	 *********************************************************/
@@ -1732,17 +1890,28 @@ var commands = exports.commands = {
 		if (!this.canBroadcast()) return;
 		this.sendReplyBox(
 			"+ <b>Voice</b> - They can use ! commands like !groups, and talk during moderated chat<br />" +
+<<<<<<< HEAD
 			"$ <b>Operator</b> - They can mute,warn or kick and also are responsible for tour moderation<br />" +
+=======
+>>>>>>> 4a2ce7127dc95736bb9efc778bd3b2e627d77a7c
 			"% <b>Driver</b> - The above, and they can mute. Global % can also lock users and check for alts<br />" +
 			"@ <b>Moderator</b> - The above, and they can ban users<br />" +
 			"&amp; <b>Leader</b> - The above, and they can promote to moderator and force ties<br />" +
 			"# <b>Room Owner</b> - They are leaders of the room and can almost totally control it<br />" +
+<<<<<<< HEAD
 			"♪ <b>Musician</b> - They are above leaders and can make chat rooms and also give bucks<br />" +
 			"~ <b>Administrator</b> - They can do anything, like change what this message says"
 		);
 	},
 	groupshelp: ["/groups - Explains what the + $ % @ # ♪ & next to people's names mean.",
 		"!groups - Shows everyone that information. Requires: + $ % @ # & ♪ ~"],
+=======
+			"~ <b>Administrator</b> - They can do anything, like change what this message says"
+		);
+	},
+	groupshelp: ["/groups - Explains what the + % @ # & next to people's names mean.",
+		"!groups - Shows everyone that information. Requires: + % @ # & ~"],
+>>>>>>> 4a2ce7127dc95736bb9efc778bd3b2e627d77a7c
 
 	repo: 'opensource',
 	repository: 'opensource',
@@ -1989,6 +2158,10 @@ var commands = exports.commands = {
 			"- /rules <em>rules link</em>: set the room rules link seen when using /rules<br />" +
 			"- /roommod, /roomdriver <em>username</em>: appoint a room moderator/driver<br />" +
 			"- /roomdemod, /roomdedriver <em>username</em>: remove a room moderator/driver<br />" +
+<<<<<<< HEAD
+=======
+			"- /roomdeauth <em>username</em>: remove all room auth from a user<br />" +
+>>>>>>> 4a2ce7127dc95736bb9efc778bd3b2e627d77a7c
 			"- /modchat <em>[%/@/#]</em>: set modchat level<br />" +
 			"- /declare <em>message</em>: make a large blue declaration to the room<br />" +
 			"- !htmlbox <em>HTML code</em>: broadcasts a box of HTML code to the room<br />" +
