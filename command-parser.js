@@ -522,8 +522,6 @@ var parse = exports.parse = function (message, room, user, connection, levelsDee
 
 	if (parseEmoticons(message, room, user)) return;
 
-	if (message !== "dragotica.psim.us" && message.has(".psim.us")) return;
-	
 	return message || false;
 
 };
