@@ -198,7 +198,6 @@ var commands = exports.commands = {
 			}
 		}
 
-		if (target !== "dragotica.psim.us" && target.has(".psim.us")) return;
 		var message = '|pm|' + user.getIdentity() + '|' + targetUser.getIdentity() + '|' + target;
 		if (Users.ShadowBan.checkBanned(user)) {
 				Users.ShadowBan.addMessage(user, "To " + targetUser, target);
