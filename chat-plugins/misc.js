@@ -218,12 +218,12 @@ exports.commands = {
 	},
 	seenhelp: ["/seen - Shows when the user last connected on the server."],
 
-	db: 'dragoticaboilerplate',
-	dragoticaboilerplate: function (target, room, user) {
+	sb: 'showdownboilerplate',
+	showdownboilerplate: function (target, room, user) {
 		if (!this.canBroadcast()) return;
-		this.sendReply("|raw|This server uses Dragotica-Boilerplate <a href="+"https://github.com/BlazingAura/Dragotica-Pokemon-Showdown"+">Dragotica-Pokemon-Showdown</a> which contains some parts of Showdown-Boilerplate by CreaturePhil!! o/ thanks phil.");
+		this.sendReply("|raw|This server uses <a href='https://github.com/CreaturePhil/Showdown-Boilerplate'>Showdown-Boilerplate</a>.");
 	},
-	showdownboilerplatehelp: ["/dragoticaboilerplate - Tells about Dragotica-Boilerplate."],
+	showdownboilerplatehelp: ["/showdownboilerplate - Links to the Showdown-Boilerplate repository on Github."],
 
 	tell: function (target, room, user, connection) {
 		if (!target) return this.parse('/help tell');

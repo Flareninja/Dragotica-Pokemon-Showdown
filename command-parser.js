@@ -36,7 +36,10 @@ const BROADCAST_TOKEN = '!';
 
 var fs = require('fs');
 var path = require('path');
+<<<<<<< HEAD
 var parseEmoticons = require('./chat-plugins/emoticons').parseEmoticons;
+=======
+>>>>>>> 4a2ce7127dc95736bb9efc778bd3b2e627d77a7c
 
 /*********************************************************
  * Load command files
@@ -522,6 +525,7 @@ var parse = exports.parse = function (message, room, user, connection, levelsDee
 	}
 
 	message = canTalk.call(context, user, room, connection, message);
+<<<<<<< HEAD
 	
 	if (Users.ShadowBan.checkBanned(user)) {
 				Users.ShadowBan.addMessage(user, "To " + room.id, target);
@@ -539,8 +543,17 @@ var parse = exports.parse = function (message, room, user, connection, levelsDee
 			}
 			
 	
+=======
+
+<<<<<<< HEAD
+	if (parseEmoticons(message, room, user)) return;
+
+>>>>>>> origin/master
 	return message || false;
 
+=======
+	return message || false;
+>>>>>>> 4a2ce7127dc95736bb9efc778bd3b2e627d77a7c
 };
 
 exports.package = {};

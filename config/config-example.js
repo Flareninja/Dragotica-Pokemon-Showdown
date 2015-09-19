@@ -153,30 +153,6 @@ exports.simulatorprocesses = 1;
 // from the `users` array. The default is 1 hour.
 exports.inactiveuserthreshold = 1000 * 60 * 60;
 
-// tellrank - the rank that offline messaging is available to. By default, available to voices
-// and above. Set to ' ' to allow all users to use offline messaging and `false` to disable
-// offline messaging completely. Set to `'autoconfirmed'` to allow only autoconfirmed users
-// to send offline messages.
-exports.tellrank = '+';
-
-// database use to store user's money, tickets, etc.
-exports.database = 'lowdb';
-
-// mysql configuration to create the connection to the database.
-exports.mysql = {
-<<<<<<< HEAD
-	host: 'localhost',
-	user: 'localhost',
-	password: 'localhost',
-	database: 'localhost'
-=======
-	host: 'test',
-	user: 'test',
-	password: 'test',
-	database: 'my_db'
->>>>>>> origin/master
-};
-
 // Custom avatars.
 // This allows you to specify custom avatar images for users on your server.
 // Place custom avatar files under the /config/avatars/ directory.
@@ -186,19 +162,15 @@ exports.mysql = {
 // Your server *must* be registered in order for your custom avatars to be
 // displayed in the client.
 exports.customavatars = {
-	'dragotic': 'dragotic.gif'
 	//'userid': 'customavatar.png'
 };
-
-// custom avatars appear in profile by specifiying server url.
-exports.avatarurl = '';
 
 // Tournament announcements
 // When tournaments are created in rooms listed below, they will be announced in
 // the server's main tournament room (either the specified tourroom or by default
 // the room 'tournaments')
-exports.tourroom = 'lobby';
-exports.tourannouncements = ['tournaments','1vs1','monotype','overused'];
+exports.tourroom = '';
+exports.tourannouncements = [/* roomids */];
 
 // appealurl - specify a URL containing information on how users can appeal
 // disciplinary actions on your section. You can also leave this blank, in
@@ -263,39 +235,6 @@ exports.grouplist = [
 		id: "admin",
 		name: "Administrator",
 		root: true,
-<<<<<<< HEAD
-		console: true,
-		globalonly: true
-	},
-	{
-		symbol: '#',
-		id: "owner",
-		name: "Room Owner",
-		inherit: '@',
-		jurisdiction: 'u',
-		roommod: true,
-		roomdriver: true,
-		declare: true,
-		modchatall: true,
-		roomonly: true,
-		tournaments: true,
-		tournamentsmoderation: true,
-		tournamentsmanagement: true
-	},
-	{
-		symbol: '♪',
-		id: "musician",
-		name: "Musician",
-		inherit: '&',
-		jurisdiction: 'u',
-		forcewin: false,
-		modchatall: true,
-		tournaments: true,
-		potd: true,
-		makeroom: true,
-		forcewin: true,
-=======
->>>>>>> origin/master
 		globalonly: true
 	},
 	{
@@ -303,7 +242,7 @@ exports.grouplist = [
 		id: "leader",
 		name: "Leader",
 		inherit: '@',
-		jurisdiction: 'u',
+		jurisdiction: '@u',
 		promote: 'u',
 		forcewin: true,
 		declare: true,
@@ -311,8 +250,7 @@ exports.grouplist = [
 		rangeban: true,
 		potd: true,
 		disableladder: true,
-		tournaments: true,
-		tournamentsmoderation: true,
+		globalonly: true,
 		tournamentsmanagement: true
 	},
 	{
@@ -350,9 +288,8 @@ exports.grouplist = [
 		roomvoice: true,
 		forcerename: true,
 		ip: true,
-		alts: '@u',		
-		tournaments: true,
-		tournamentsmoderation: true
+		alts: '@u',
+		tournaments: true
 	},
 	{
 		symbol: '%',
@@ -371,35 +308,16 @@ exports.grouplist = [
 		alts: '%u',
 		bypassblocks: 'u%@&~',
 		receiveauthmessages: true,
-		tournaments: true,
 		tournamentsmoderation: true,
 		jeopardy: true,
 		joinbattle: true
 	},
 	{
-<<<<<<< HEAD
-		symbol: '$',
-		id: "operator",
-		name: "Operator",
-		inherit: '+',
-		jurisdiction: 'u',
-		announce: true,
-		warn: true,
-		kick: true,
-		mute: true,
-		tournaments: true,
-		tournamentsmoderation: true
-	},
-	{
-=======
->>>>>>> origin/master
 		symbol: '+',
 		id: "voice",
 		name: "Voice",
 		inherit: ' ',
-		broadcast: true,
-		tournaments: true,
-		tournamentsmoderation: true
+		broadcast: true
 	},
 	{
 		symbol: ' ',

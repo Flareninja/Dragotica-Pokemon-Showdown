@@ -134,6 +134,10 @@ Staff
 
 - Chris Monsanto [chaos] - Sysadmin
 - Hugh Gordon [V4] - Research (game mechanics), Development
+<<<<<<< HEAD
+=======
+- Juanma Serrano [Joim] - Development, Sysadmin
+>>>>>>> 4a2ce7127dc95736bb9efc778bd3b2e627d77a7c
 - Leonardo Julca [Slayer95] - Development
 - Mathieu Dias-Martins [Marty-D] - Research (game mechanics), Development
 - [The Immortal] - Development
@@ -142,7 +146,10 @@ Retired Staff
 
 - Bill Meltsner [bmelts] - Development, Sysadmin
 - Cathy J. Fitzpatrick [cathyjf] - Development, Sysadmin
+<<<<<<< HEAD
 - Juanma Serrano [Joim] - Development, Sysadmin
+=======
+>>>>>>> 4a2ce7127dc95736bb9efc778bd3b2e627d77a7c
 
 Contributors
 

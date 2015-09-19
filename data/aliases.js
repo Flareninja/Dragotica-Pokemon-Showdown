@@ -14,9 +14,15 @@ exports.BattleAliases = {
 	"smogdubs": "Doubles OU",
 	"smogtrips": "Smogon Triples",
 	"triples": "Smogon Triples",
+<<<<<<< HEAD
 	"vgc15": "Battle Spot Doubles (VGC 2015)",
 	"vgc2015": "Battle Spot Doubles (VGC 2015)",
 	"battlespotdoubles": "Battle Spot Doubles (VGC 2015)",
+=======
+	"vgc": "VGC 2015",
+	"bsdoubles": "Battle Spot Doubles",
+	"bstriples": "Battle Spot Triples",
+>>>>>>> 4a2ce7127dc95736bb9efc778bd3b2e627d77a7c
 	"seasonal": "[Seasonal] Rainbow Road",
 	"createapokemon": "CAP",
 	"2v2": "2v2 Doubles",

@@ -322,6 +322,7 @@ global.Rooms = require('./rooms.js');
 // Generate and cache the format list.
 Rooms.global.formatListText = Rooms.global.getFormatListText();
 
+<<<<<<< HEAD
 global.Tells = require('./tells.js');
 
 global.Database = require('./database.js')(Config.database);
@@ -333,6 +334,8 @@ try {
 	if (e.code !== 'ENOENT') throw e;
 	global.Seen = {};
 }
+=======
+>>>>>>> 4a2ce7127dc95736bb9efc778bd3b2e627d77a7c
 
 delete process.send; // in case we're a child process
 global.Verifier = require('./verifier.js');

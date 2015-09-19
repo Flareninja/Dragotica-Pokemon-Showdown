@@ -87,6 +87,7 @@ var Room = (function () {
 
 		message = CommandParser.parse(message, this, user, connection);
 
+<<<<<<< HEAD
 		if (message) {
 			if (Users.ShadowBan.checkBanned(user)) {
 				Users.ShadowBan.addMessage(user, "To " + this.id, message);
@@ -94,6 +95,10 @@ var Room = (function () {
 			} else {
 				this.add('|c|' + user.getIdentity(this.id) + '|' + message);
 			}
+=======
+		if (message && message !== true) {
+			this.add('|c|' + user.getIdentity(this.id) + '|' + message);
+>>>>>>> 4a2ce7127dc95736bb9efc778bd3b2e627d77a7c
 		}
 		this.update();
 	};
@@ -1580,7 +1585,11 @@ var ChatRoom = (function () {
 	};
 	ChatRoom.prototype.getIntroMessage = function () {
 		if (this.modchat && this.introMessage) {
+<<<<<<< HEAD
 			return '\n|raw|<div class="infobox"><div' + (!this.isOfficial ? ' class="infobox"' : '') + '>' + this.introMessage + '</div>' +
+=======
+			return '\n|raw|<div class="infobox"><div' + (!this.isOfficial ? ' class="infobox-limited"' : '') + '>' + this.introMessage + '</div>' +
+>>>>>>> 4a2ce7127dc95736bb9efc778bd3b2e627d77a7c
 				'<br />' +
 				'<div class="broadcast-red">' +
 				'Must be rank ' + this.modchat + ' or higher to talk right now.' +
@@ -1593,7 +1602,11 @@ var ChatRoom = (function () {
 				'</div></div>';
 		}
 
+<<<<<<< HEAD
 		if (this.introMessage) return '\n|raw|<div class="infobox"><div' + (!this.isOfficial ? ' class="infobox"' : '') + '>' + this.introMessage + '</div></div>';
+=======
+		if (this.introMessage) return '\n|raw|<div class="infobox"><div' + (!this.isOfficial ? ' class="infobox-limited"' : '') + '>' + this.introMessage + '</div></div>';
+>>>>>>> 4a2ce7127dc95736bb9efc778bd3b2e627d77a7c
 
 		return '';
 	};
