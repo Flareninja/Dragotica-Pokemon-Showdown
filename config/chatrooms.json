@@ -1,12 +1,16 @@
 [
-{"title":"Lobby","isOfficial":true,"autojoin":true,"auth":{},"leagueauth":{},"founder":"dragotic"},
+{"title":"Lobby","isOfficial":true,"autojoin":true,"auth":{},"leagueauth":{},"founder":"dragotic","modchat":"autoconfirmed","introMessage":"<center><img src=\"http://s18.postimg.org/r50baeo09/Cool_Text_137549799786962.png\" width=\"600\" height=\"150\"><br><font style=\"font-family: Arial Narrow; color: cyan; font-size: 20px;\"><b>Do not Advertise this server anywhere or any other server here!!!</b></font><br><marquee style=\"background-color:cyan; border:2px inset gold; color: white; padding: 3px 3px 3px 3px\">Hell and welcome to Dragotica, enjoy your stay here!!!! and stay tuned for more updates! ;)</marquee></center>","desc":"Dragotica's Lobby... ded as always ;-;","toursEnabled":true},
 {"title":"Staff","isPrivate":true,"staffRoom":true,"staffAutojoin":true},
-{"title":"Shadow Ban Room","isPrivate":true,"staffRoom":true,"addedUsers":{}},
-{"title":"Tournaments","isOfficial":true},
-{"title":"Casino","isOfficial":true},
-{"title":"Monotype","isOfficial":true},
-{"title":"1vs1","isOfficial":true},
-{"title":"OverUsed","isOfficial":true},
+{"title":"Shadow Ban Room","isPrivate":true,"staffRoom":true,"staffAutojoin":true,"addedUsers":{},"aliases":["sbanroom","shadowrealm"]},
+{"title":"Tournaments","isOfficial":true,"desc":"Tournaments Room| Providing You Battles and Tour Each Day! ;)"},
+{"title":"Monotype","isOfficial":true,"desc":"Monotype Room| Battle with your single favorite type here each day !!"},
+{"title":"1vs1","isOfficial":true,"desc":"1vs1| Fight em 1 on 1 LIKE A MAN!"},
+{"title":"OverUsed","isOfficial":true,"desc":"OverUsed| Well .... It's OU smh"},
 {"title":"Dragotic's Room","modjoin":"+","modchat":"+","isPrivate":"hidden"},
-{"title":"The Pokemon League","auth":{},"leagueauth":{},"founder":"dragotic"}
+{"title":"The Pokemon League","auth":{},"leagueauth":{},"founder":"dragotic"},
+{"title":"Desi Beats","modchat":"autoconfirmed"},
+{"title":"Music","modchat":"autoconfirmed"},
+{"title":"Club"},
+{"title":"Casino","desc":"GAMBLE EM ALL!!!!","isOfficial":true},
+{"title":"Games","modchat":false}
 ]

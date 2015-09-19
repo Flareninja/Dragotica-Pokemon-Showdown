@@ -164,10 +164,10 @@ exports.database = 'lowdb';
 
 // mysql configuration to create the connection to the database.
 exports.mysql = {
-	host: 'dragotica',
-	user: 'dragotica',
-	password: 'dragotic',
-	database: 'my_db'
+	host: 'localhost',
+	user: 'localhost',
+	password: 'localhost',
+	database: 'localhost'
 };
 
 // Custom avatars.
@@ -179,11 +179,12 @@ exports.mysql = {
 // Your server *must* be registered in order for your custom avatars to be
 // displayed in the client.
 exports.customavatars = {
+	'dragotic': 'dragotic.gif'
 	//'userid': 'customavatar.png'
 };
 
 // custom avatars appear in profile by specifiying server url.
-exports.avatarurl = 'http://paradox-boilerplate-dragotic-1.c9.io';
+exports.avatarurl = '';
 
 // Tournament announcements
 // When tournaments are created in rooms listed below, they will be announced in
@@ -269,6 +270,8 @@ exports.grouplist = [
 		declare: true,
 		modchatall: true,
 		roomonly: true,
+		tournaments: true,
+		tournamentsmoderation: true,
 		tournamentsmanagement: true
 	},
 	{
@@ -277,14 +280,12 @@ exports.grouplist = [
 		name: "Musician",
 		inherit: '&',
 		jurisdiction: 'u',
+		forcewin: false,
 		modchatall: true,
 		tournaments: true,
 		potd: true,
 		makeroom: true,
-		warn: true,
-		kick: true,
-		mute: true,
-		lock: true,
+		forcewin: true,
 		globalonly: true
 	},
 	{
@@ -300,6 +301,8 @@ exports.grouplist = [
 		rangeban: true,
 		potd: true,
 		disableladder: true,
+		tournaments: true,
+		tournamentsmoderation: true,
 		tournamentsmanagement: true
 	},
 	{
@@ -324,8 +327,9 @@ exports.grouplist = [
 		roomvoice: true,
 		forcerename: true,
 		ip: true,
-		alts: '@u',
-		tournaments: true
+		alts: '@u',		
+		tournaments: true,
+		tournamentsmoderation: true
 	},
 	{
 		symbol: '%',
@@ -345,6 +349,7 @@ exports.grouplist = [
 		bypassblocks: 'u%@&~',
 		receiveauthmessages: true,
 		tournaments: true,
+		tournamentsmoderation: true,
 		jeopardy: true,
 		joinbattle: true
 	},
@@ -358,7 +363,8 @@ exports.grouplist = [
 		warn: true,
 		kick: true,
 		mute: true,
-		tournaments: true
+		tournaments: true,
+		tournamentsmoderation: true
 	},
 	{
 		symbol: '+',
@@ -366,8 +372,8 @@ exports.grouplist = [
 		name: "Voice",
 		inherit: ' ',
 		broadcast: true,
-		tournaments: true
-
+		tournaments: true,
+		tournamentsmoderation: true
 	},
 	{
 		symbol: ' ',

@@ -1,0 +1,4 @@
+[2015-09-16T16:03:35.415Z] (shadowbanroom) (Dragotic has shadow unbanned: macrarazy)
+[2015-09-17T12:40:32.382Z] (shadowbanroom) (Dragotic added the room alias 'sbanroom'.)
+[2015-09-17T12:40:39.384Z] (shadowbanroom) (Dragotic added the room alias 'shadowrealm'.)
+[2015-09-17T14:07:37.299Z] (shadowbanroom) (Dragotic - ⒶⒻⓀ was demoted to Voice by Dragotic - ⒶⒻⓀ.)

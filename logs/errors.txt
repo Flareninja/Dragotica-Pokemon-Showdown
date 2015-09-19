@@ -511,3 +511,1428 @@ Additional information:
 user = Dragotic
 room = lobby
 message = /profile dragotic
+
+TypeError: Cannot set property 'avatar' of undefined
+    at Request.<anonymous> (/home/ubuntu/workspace/chat-plugins/avatarcommands.js:35:37)
+    at Request.emit (events.js:95:17)
+    at Request.onRequestResponse (/home/ubuntu/workspace/node_modules/request/request.js:998:10)
+    at ClientRequest.emit (events.js:95:17)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (http.js:1693:21)
+    at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:122:23)
+    at Socket.socketOnData [as ondata] (http.js:1588:20)
+    at TCP.onread (net.js:528:27)
+
+TypeError: Cannot set property 'avatar' of undefined
+    at Request.<anonymous> (/home/ubuntu/workspace/chat-plugins/avatarcommands.js:35:37)
+    at Request.emit (events.js:95:17)
+    at Request.onRequestResponse (/home/ubuntu/workspace/node_modules/request/request.js:998:10)
+    at ClientRequest.emit (events.js:95:17)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (http.js:1693:21)
+    at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:122:23)
+    at Socket.socketOnData [as ondata] (http.js:1588:20)
+    at TCP.onread (net.js:528:27)
+
+TypeError: Object false has no method 'has'
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:525:49)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.processChatQueue (/home/ubuntu/workspace/users.js:1640:13)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:112:15)
+
+TypeError: string is not a function
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:525:41)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+TypeError: boolean is not a function
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:525:41)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+TypeError: boolean is not a function
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:525:41)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+TypeError: Object false has no method 'has'
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:525:14)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+TypeError: Object false has no method 'has'
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:525:14)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+TypeError: Object false has no method 'has'
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:525:14)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+TypeError: Object false has no method 'has'
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:525:14)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+TypeError: Object false has no method 'has'
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:525:14)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+TypeError: Object false has no method 'has'
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:525:14)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+TypeError: Object false has no method 'has'
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:525:14)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+TypeError: Object false has no method 'has'
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:525:14)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+TypeError: Object false has no method 'has'
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:525:14)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+TypeError: Object false has no method 'has'
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:525:14)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.processChatQueue (/home/ubuntu/workspace/users.js:1640:13)
+    at Timer.listOnTimeout [as ontimeout] (timers.js:112:15)
+
+TypeError: Object false has no method 'has'
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:525:14)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+TypeError: Object false has no method 'has'
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:525:14)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+TypeError: Object false has no method 'has'
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:525:14)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+ReferenceError: pointyName is not defined
+    at Context.<anonymous> (/home/ubuntu/workspace/chat-plugins/economy.js:195:67)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:75:3)
+    at Context.exports.commands.pointwallet (/home/ubuntu/workspace/chat-plugins/economy.js:192:12)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /pointwallet
+
+ReferenceError: roomid is not defined
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:524:46)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+ReferenceError: roomid is not defined
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:524:46)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+ReferenceError: roomid is not defined
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:524:46)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+ReferenceError: user is not defined
+    at Profile.group (/home/ubuntu/workspace/chat-plugins/profile.js:113:34)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:144:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:75:3)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:162:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+ReferenceError: target is not defined
+    at Profile.group (/home/ubuntu/workspace/chat-plugins/profile.js:113:39)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:144:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:75:3)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:162:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+ReferenceError: targetUser is not defined
+    at Profile.group (/home/ubuntu/workspace/chat-plugins/profile.js:113:34)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:144:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:75:3)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:162:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+ReferenceError: userid is not defined
+    at Profile.group (/home/ubuntu/workspace/chat-plugins/profile.js:113:34)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:144:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:75:3)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:162:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /profile
+
+TypeError: Cannot read property 'length' of undefined
+    at Connection.sendTo (/home/ubuntu/workspace/users.js:1690:39)
+    at Context.exports.Context.Context.sendReply (/home/ubuntu/workspace/command-parser.js:176:20)
+    at Context.exports.commands.desibeats (/home/ubuntu/workspace/chat-plugins/desibeats.js:11:10)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /desibeats
+
+TypeError: Cannot read property 'length' of undefined
+    at Connection.sendTo (/home/ubuntu/workspace/users.js:1690:39)
+    at Context.exports.Context.Context.sendReply (/home/ubuntu/workspace/command-parser.js:176:20)
+    at Context.exports.commands.desibeats (/home/ubuntu/workspace/chat-plugins/desibeats.js:9:10)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:292:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:488:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /desibeats
+
+TypeError: Object false has no method 'has'
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:536:49)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+TypeError: Object false has no method 'has'
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:536:49)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+TypeError: Object false has no method 'has'
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:536:49)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+TypeError: Object false has no method 'has'
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:536:49)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+TypeError: Object false has no method 'has'
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:536:49)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+ReferenceError: target is not defined
+    at Context.canTalk (/home/ubuntu/workspace/command-parser.js:144:7)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:523:20)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+ReferenceError: target is not defined
+    at Context.canTalk (/home/ubuntu/workspace/command-parser.js:144:7)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:523:20)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+ReferenceError: target is not defined
+    at Context.canTalk (/home/ubuntu/workspace/command-parser.js:144:7)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:523:20)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+ReferenceError: target is not defined
+    at Context.canTalk (/home/ubuntu/workspace/command-parser.js:146:33)
+    at Context.exports.Context.Context.canTalk (/home/ubuntu/workspace/command-parser.js:319:18)
+    at Context.exports.commands.msg (/home/ubuntu/workspace/commands.js:170:17)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:297:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:493:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /pm macrarazy, feelsgd
+
+TypeError: object is not a function
+    at Context.exports.commands.jukeadd (/home/ubuntu/workspace/chat-plugins/jukebox.js:45:1)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = music
+message = /jukeadd https://api.soundcloud.com/tracks/223197931/download?secret_token=&client_id=a3e059563d7fd3372b49b37f00a00bcf, Rangeela
+
+TypeError: Cannot call method 'writeFile' of undefined
+    at Context.exports.commands.jukeadd (/home/ubuntu/workspace/chat-plugins/jukebox.js:45:12)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = music
+message = /jukeadd https://api.soundcloud.com/tracks/223197931/download?secret_token=&client_id=a3e059563d7fd3372b49b37f00a00bcf, Rangeela
+
+TypeError: Cannot call method 'writeFile' of undefined
+    at Context.exports.commands.jukeadd (/home/ubuntu/workspace/chat-plugins/jukebox.js:47:12)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = music
+message = /jukeadd https://api.soundcloud.com/tracks/223197931/download?secret_token=&client_id=a3e059563d7fd3372b49b37f00a00bcf, Rangeela
+
+TypeError: path must be a string
+    at Object.fs.open (fs.js:430:11)
+    at Object.fs.writeFile (fs.js:954:6)
+    at Context.exports.commands.jukeadd (/home/ubuntu/workspace/chat-plugins/jukebox.js:47:4)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+
+Additional information:
+user = Dragotic
+room = music
+message = /jukeadd https://api.soundcloud.com/tracks/223197931/download?secret_token=&client_id=a3e059563d7fd3372b49b37f00a00bcf, Rangeela
+
+TypeError: Object |raw|<div class="infobox"> <audio src="http://mp3clan.audio/play.php?type=get&s=dc191ccb85c43b6a48d35944bbf0bdc0&tid=12707537_243794992&name=Idina_Menzel_-_Let_It_Go_(ost_Frozen).mp3" title="Let It Go - Idina Menzel" type="audio/mp3" controls="" style="background-color:gold; border-radius:2px inset gold; width: 100% ;"></audio></div> has no method 'has'
+    at Context.exports.commands.jukeplay (/home/ubuntu/workspace/chat-plugins/jukebox.js:58:24)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = music
+message = /jukeplay Let It
+
+TypeError: object is not a function
+    at Context.exports.commands.jukeplay (/home/ubuntu/workspace/chat-plugins/jukebox.js:58:16)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = music
+message = /jukeplay Let It Go - Idina Menzel
+
+TypeError: Object #<Object> has no method 'sendReply'
+    at /home/ubuntu/workspace/chat-plugins/economy.js:551:9
+    at Object.methods.read (/home/ubuntu/workspace/database.js:75:3)
+    at Context.exports.commands.startdice (/home/ubuntu/workspace/chat-plugins/economy.js:544:12)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+
+Additional information:
+user = Dragotic
+room = casino
+message = /startdice 3
+
+TypeError: Object #<Object> has no method 'sendReply'
+    at /home/ubuntu/workspace/chat-plugins/economy.js:535:9
+    at Object.methods.read (/home/ubuntu/workspace/database.js:75:3)
+    at Context.exports.commands.startdice (/home/ubuntu/workspace/chat-plugins/economy.js:533:12)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+
+Additional information:
+user = Dragotic
+room = casino
+message = /startdice 23
+
+TypeError: Object #<Object> has no method 'errorReply'
+    at /home/ubuntu/workspace/chat-plugins/economy.js:535:9
+    at Object.methods.read (/home/ubuntu/workspace/database.js:75:3)
+    at Context.exports.commands.startdice (/home/ubuntu/workspace/chat-plugins/economy.js:533:12)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+
+Additional information:
+user = Dragotic
+room = casino
+message = /startdice 23
+
+TypeError: Object #<Object> has no method 'errorReply'
+    at /home/ubuntu/workspace/chat-plugins/economy.js:535:9
+    at Object.methods.read (/home/ubuntu/workspace/database.js:75:3)
+    at Context.exports.commands.startdice (/home/ubuntu/workspace/chat-plugins/economy.js:533:12)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+
+Additional information:
+user = Dragotic
+room = casino
+message = /startdice 3
+
+TypeError: Object 1 has no method 'replace'
+    at Context.exports.commands.setroyale (/home/ubuntu/workspace/chat-plugins/royale.js:15:29)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = staff
+message = /setroyale 1,Dragotic,Dragon Of The East
+
+TypeError: Object |raw|<div class="infobox"><center><u><b>Royale</b></u></center><br><table border="1" cellspacing="0" cellpadding="5" width="100%"><tbody><tr><th>Rank</th><th>Username</th><th>Title</th></tr>,</tbody></table></div> has no method 'replace'
+    at Context.exports.commands.royale (/home/ubuntu/workspace/chat-plugins/royale.js:10:26)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = staff
+message = /royale
+
+TypeError: Object |raw|<div class="infobox"><center><u><b>Royale</b></u></center><br><table border="1" cellspacing="0" cellpadding="5" width="100%"><tbody><tr><th>Rank</th><th>Username</th><th>Title</th></tr>,</tbody></table></div> has no method 'replace'
+    at Context.exports.commands.royale (/home/ubuntu/workspace/chat-plugins/royale.js:10:26)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = staff
+message = /royale
+
+TypeError: Cannot call method 'replace' of undefined
+    at Context.exports.commands.setroyale (/home/ubuntu/workspace/chat-plugins/royale.js:18:29)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = staff
+message = /setroyale 1,a,ad
+
+Error: Deprecated message type
+    at Room.add (/home/ubuntu/workspace/rooms.js:65:42)
+    at Context.exports.Context.Context.sendReply (/home/ubuntu/workspace/command-parser.js:177:14)
+    at Context.exports.commands.royale (/home/ubuntu/workspace/chat-plugins/royale.js:11:14)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+
+Additional information:
+user = Dragotic
+room = testingroom
+message = !royale
+
+Error: Deprecated message type
+    at Room.add (/home/ubuntu/workspace/rooms.js:65:42)
+    at Context.exports.Context.Context.sendReply (/home/ubuntu/workspace/command-parser.js:177:14)
+    at Context.exports.commands.royale (/home/ubuntu/workspace/chat-plugins/royale.js:11:14)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+
+Additional information:
+user = Dragotic
+room = testingroom
+message = !royale
+
+Error: Deprecated message type
+    at Room.add (/home/ubuntu/workspace/rooms.js:65:42)
+    at Context.exports.Context.Context.add (/home/ubuntu/workspace/command-parser.js:196:13)
+    at Context.exports.commands.royale (/home/ubuntu/workspace/chat-plugins/royale.js:11:14)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+
+Additional information:
+user = Dragotic
+room = testingroom
+message = /royale
+
+Error: Deprecated message type
+    at Room.add (/home/ubuntu/workspace/rooms.js:65:42)
+    at Context.exports.Context.Context.add (/home/ubuntu/workspace/command-parser.js:196:13)
+    at Context.exports.commands.royale (/home/ubuntu/workspace/chat-plugins/royale.js:10:14)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+
+Additional information:
+user = Dragotic
+room = testingroom
+message = /royale
+
+ReferenceError: target is not defined
+    at Context.exports.commands.playlist (/home/ubuntu/workspace/chat-plugins/jukebox.js:56:6)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = music
+message = !playlist dragotic
+
+ReferenceError: target is not defined
+    at Context.exports.commands.playlist (/home/ubuntu/workspace/chat-plugins/jukebox.js:56:6)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = music
+message = !playlist Dragotic
+
+ReferenceError: target is not defined
+    at Context.exports.commands.playlist (/home/ubuntu/workspace/chat-plugins/jukebox.js:56:6)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = music
+message = !playlist dragotic
+
+TypeError: Cannot read property 'name' of undefined
+    at Profile.group (/home/ubuntu/workspace/chat-plugins/profile.js:116:75)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:144:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:162:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+
+Additional information:
+user = Dragotic
+room = testingroom
+message = !profile magma dragon
+
+TypeError: Cannot read property 'name' of undefined
+    at Profile.group (/home/ubuntu/workspace/chat-plugins/profile.js:116:75)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:144:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:162:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+
+Additional information:
+user = Dragotic
+room = testingroom
+message = /profile magma dragon
+
+TypeError: Cannot read property 'name' of undefined
+    at Profile.group (/home/ubuntu/workspace/chat-plugins/profile.js:116:75)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:144:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:162:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+
+Additional information:
+user = Dragotic
+room = testingroom
+message = /profile magma dragon
+
+TypeError: Cannot read property 'name' of undefined
+    at Profile.group (/home/ubuntu/workspace/chat-plugins/profile.js:113:75)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:144:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:162:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+
+Additional information:
+user = Magma Dragon
+room = testingroom
+message = /profile
+
+Error: ENOENT, no such file or directory 'config/avatars/silver.gif'
+    at Object.fs.unlinkSync (fs.js:772:18)
+    at Context.cmds.set (/home/ubuntu/workspace/chat-plugins/customavatar.js:74:45)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+
+Additional information:
+user = Dragotic
+room = testingroom
+message = /ca set siiilver, http://play.pokemonshowdown.com/sprites/xyani/absol-mega.gif
+
+Error: ENOENT, no such file or directory 'config/avatars/silver.gif'
+    at Object.fs.unlinkSync (fs.js:772:18)
+    at Context.cmds.set (/home/ubuntu/workspace/chat-plugins/customavatar.js:74:45)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+
+Additional information:
+user = Dragotic
+room = testingroom
+message = /ca set siiilver, http://play.pokemonshowdown.com/sprites/xyani/absol-mega.gif
+
+Error: ENOENT, no such file or directory 'config/avatars/silver.gif'
+    at Object.fs.unlinkSync (fs.js:772:18)
+    at Context.cmds.set (/home/ubuntu/workspace/chat-plugins/customavatar.js:74:45)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+
+Additional information:
+user = Dragotic
+room = testingroom
+message = /ca set siiilver,http://play.pokemonshowdown.com/sprites/xyani/absol-mega.gif
+
+TypeError: Cannot read property 'name' of undefined
+    at Profile.group (/home/ubuntu/workspace/chat-plugins/profile.js:116:75)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:144:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:162:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+
+Additional information:
+user = Dragotic
+room = testingroom
+message = /profile magma dragon
+
+TypeError: Cannot read property 'name' of undefined
+    at Profile.group (/home/ubuntu/workspace/chat-plugins/profile.js:116:75)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:144:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:162:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+
+Additional information:
+user = Dragotic
+room = testingroom
+message = /profile magma dragon
+
+TypeError: Cannot read property 'name' of undefined
+    at Profile.group (/home/ubuntu/workspace/chat-plugins/profile.js:116:75)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:144:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:162:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+
+Additional information:
+user = Dragotic
+room = testingroom
+message = /profile magma dragon
+
+TypeError: Cannot read property 'name' of undefined
+    at Profile.group (/home/ubuntu/workspace/chat-plugins/profile.js:116:75)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:144:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:162:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+
+Additional information:
+user = Dragotic
+room = testingroom
+message = /profile magma dragon
+
+TypeError: path must be a string
+    at Object.fs.open (fs.js:430:11)
+    at Object.fs.writeFile (fs.js:954:6)
+    at Context.exports.commands.apply (/home/ubuntu/workspace/chat-plugins/avatarcommands.js:42:5)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+
+Additional information:
+user = Dragotic
+room = shadowbanroom
+message = /apply
+
+TypeError: Cannot read property 'length' of undefined
+    at Context.exports.commands.apply (/home/ubuntu/workspace/chat-plugins/avatarcommands.js:42:41)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = shadowbanroom
+message = /apply
+
+TypeError: Cannot read property 'length' of undefined
+    at Context.exports.commands.apply (/home/ubuntu/workspace/chat-plugins/avatarcommands.js:43:27)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = shadowbanroom
+message = /apply
+
+TypeError: Cannot read property 'length' of undefined
+    at Context.exports.commands.apply (/home/ubuntu/workspace/chat-plugins/avatarcommands.js:43:27)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = shadowbanroom
+message = /apply
+
+ReferenceError: config is not defined
+    at Context.exports.commands.avatars (/home/ubuntu/workspace/chat-plugins/avatarcommands.js:42:50)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = shadowbanroom
+message = /avatars
+
+TypeError: Cannot set property 'avatar' of undefined
+    at Request.<anonymous> (/home/ubuntu/workspace/chat-plugins/avatarcommands.js:35:37)
+    at Request.emit (events.js:95:17)
+    at Request.onRequestResponse (/home/ubuntu/workspace/node_modules/request/request.js:998:10)
+    at ClientRequest.emit (events.js:95:17)
+    at HTTPParser.parserOnIncomingClient [as onIncoming] (http.js:1693:21)
+    at HTTPParser.parserOnHeadersComplete [as onHeadersComplete] (http.js:122:23)
+    at Socket.socketOnData [as ondata] (http.js:1588:20)
+    at TCP.onread (net.js:528:27)
+
+TypeError: Cannot read property 'name' of undefined
+    at Profile.group (/home/ubuntu/workspace/chat-plugins/profile.js:116:75)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:144:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:162:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+
+Additional information:
+user = Dragotic
+room = shadowbanroom
+message = /profile magma dragon
+
+TypeError: Cannot read property 'name' of undefined
+    at Profile.group (/home/ubuntu/workspace/chat-plugins/profile.js:116:75)
+    at Profile.<anonymous> (/home/ubuntu/workspace/chat-plugins/profile.js:144:24)
+    at Object.methods.read (/home/ubuntu/workspace/database.js:74:21)
+    at Profile.show (/home/ubuntu/workspace/chat-plugins/profile.js:139:11)
+    at Context.exports.commands.profile (/home/ubuntu/workspace/chat-plugins/profile.js:164:11)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+
+Additional information:
+user = Dragotic
+room = shadowbanroom
+message = /profile magmadragon
+
+TypeError: Cannot read property 'rank' of undefined
+    at Context.exports.commands.promote (/home/ubuntu/workspace/commands.js:1164:66)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Context.exports.commands.demote (/home/ubuntu/workspace/commands.js:1178:8)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Context.exports.Context.Context.parse (/home/ubuntu/workspace/command-parser.js:277:24)
+    at Context.exports.commands.deauth (/home/ubuntu/workspace/commands.js:1199:15)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+
+Additional information:
+user = Dragotic
+room = lobby
+message = /demote magma dragon, deauth
+
+TypeError: Cannot read property 'startTime' of undefined
+    at Context.exports.commands.anagram (/home/ubuntu/workspace/chat-plugins/economy.js:629:33)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = games
+message = /anagram pokemon
+
+TypeError: Cannot set property 'startTime' of undefined
+    at Context.exports.commands.anagram (/home/ubuntu/workspace/chat-plugins/economy.js:628:26)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = games
+message = /anagram pokemon
+
+ReferenceError: theme is not defined
+    at Context.exports.commands.anagram (/home/ubuntu/workspace/chat-plugins/economy.js:676:171)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = games
+message = /anagram pokemon
+
+ReferenceError: pointvalue is not defined
+    at Room.room.chat (/home/ubuntu/workspace/chat-plugins/economy.js:669:118)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+ReferenceError: pointvalue is not defined
+    at Room.room.chat (/home/ubuntu/workspace/chat-plugins/economy.js:669:118)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+ReferenceError: pointvalue is not defined
+    at Room.room.chat (/home/ubuntu/workspace/chat-plugins/economy.js:669:118)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+ReferenceError: pointvalue is not defined
+    at Room.room.chat (/home/ubuntu/workspace/chat-plugins/economy.js:669:118)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+    at Pipe.channel.onread (child_process.js:349:11)
+
+TypeError: Cannot read property 'word' of undefined
+    at Context.exports.commands.anagram (/home/ubuntu/workspace/chat-plugins/economy.js:668:49)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = games
+message = /anagram info
+
+TypeError: Cannot read property 'word' of undefined
+    at Context.exports.commands.anagram (/home/ubuntu/workspace/chat-plugins/economy.js:668:49)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = games
+message = !anagram info
+
+TypeError: Cannot read property 'word' of undefined
+    at Context.exports.commands.anagram (/home/ubuntu/workspace/chat-plugins/economy.js:669:49)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = games
+message = /anagram info
+
+TypeError: Cannot read property 'word' of undefined
+    at Context.exports.commands.anagram (/home/ubuntu/workspace/chat-plugins/economy.js:673:49)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = games
+message = /anagram info
+
+TypeError: Cannot read property 'name' of undefined
+    at Context.exports.commands.anagram (/home/ubuntu/workspace/chat-plugins/economy.js:668:30)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = games
+message = /anagram info
+
+TypeError: Cannot read property 'word' of undefined
+    at Context.exports.commands.anagram (/home/ubuntu/workspace/chat-plugins/economy.js:672:49)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = games
+message = /anagram info
+
+TypeError: Cannot call method 'split' of undefined
+    at Context.exports.commands.anagram (/home/ubuntu/workspace/chat-plugins/economy.js:661:55)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = games
+message = /anagram info
+
+TypeError: Cannot read property 'word' of undefined
+    at Context.exports.commands.anagram (/home/ubuntu/workspace/chat-plugins/economy.js:673:49)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.room.chat (/home/ubuntu/workspace/chat-plugins/economy.js:677:28)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = games
+message = /anagram info
+
+TypeError: Cannot call method 'split' of undefined
+    at Context.exports.commands.anagram (/home/ubuntu/workspace/chat-plugins/economy.js:659:55)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = games
+message = /anagram info
+
+TypeError: Object Latios has no method 'sort'
+    at Context.exports.commands.anagram (/home/ubuntu/workspace/chat-plugins/economy.js:659:55)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.chat (/home/ubuntu/workspace/rooms.js:88:27)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = games
+message = /anagram pokemon
+
+TypeError: Cannot read property 'word' of undefined
+    at Context.exports.commands.anagram (/home/ubuntu/workspace/chat-plugins/economy.js:672:49)
+    at Context.exports.Context.Context.run (/home/ubuntu/workspace/command-parser.js:295:28)
+    at Object.exports.parse (/home/ubuntu/workspace/command-parser.js:491:18)
+    at Room.room.chat (/home/ubuntu/workspace/chat-plugins/economy.js:676:28)
+    at User.chat (/home/ubuntu/workspace/users.js:1624:9)
+    at Function.Users.socketReceive (/home/ubuntu/workspace/users.js:373:12)
+    at Worker.<anonymous> (/home/ubuntu/workspace/sockets.js:45:11)
+    at Worker.emit (events.js:98:17)
+    at ChildProcess.emit (events.js:98:17)
+    at handleMessage (child_process.js:322:10)
+
+Additional information:
+user = Dragotic
+room = games
+message = /anagram info

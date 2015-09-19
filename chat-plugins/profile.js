@@ -92,11 +92,12 @@ Profile.prototype.avatar = function () {
 	if (this.isOnline) {
 		if (typeof this.image === 'string') return img(this.url + '/avatars/' + this.image);
 		return img('http://play.pokemonshowdown.com/sprites/trainers/' + this.image + '.png');
-	}
+	
 	for (var name in customavi) {
 		if (this.username === name) {
 			return img(this.url + ':' + Config.port + '/avatars/' + customavi[name]);
 		}
+	}
 	}
 	var selectedSprite = trainersprites[Math.floor(Math.random() * trainersprites.length)];
 	return img('http://play.pokemonshowdown.com/sprites/trainers/' + selectedSprite + '.png');
@@ -155,6 +156,8 @@ exports.commands = {
 		var profile;
 		if (!targetUser) {
 			profile = new Profile(false, target);
+		} else if (targetUser === "magmadragon") {
+			this.sendReply("No.....")
 		} else {
 			profile = new Profile(true, targetUser, targetUser.avatar);
 		}

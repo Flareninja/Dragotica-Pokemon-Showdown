@@ -50,7 +50,9 @@ var emotes = {
 	'feelsshrk': 'http://i.imgur.com/amTG3jF.jpg',
 	'feelsjpn': 'http://i.imgur.com/Zz2WrQf.jpg',
 	'meGusta': 'http://cdn.overclock.net/3/36/50x50px-ZC-369517fd_me-gusta-me-gusta-s.png',
-	'happyface': 'http://imgur.com/krzCL3j.jpg'
+	'happyface': 'http://imgur.com/krzCL3j.jpg',
+	'niceMeme': 'https://static-cdn.jtvnw.net/emoticons/v1/22969/1.0',
+	'feelsFro': 'https://static.fjcdn.com/comments/That+s+not+a+pokemon+pepe+_b15c46f1c7135492fe450e65f8645505.jpg'
 };
 
 var emotesKeys = Object.keys(emotes);

@@ -36,14 +36,14 @@ exports.commands = {
 			self.sendReply('|html|Your new avatar has been set to-<br/><img src = "' + targetArray[1] + '" width = 80 height = 80>');
 			response.pipe(fs.createWriteStream('config/avatars/' + targetArray[0] + '.' + format));
 		});
-	},
+},
 
 	removeavatar: function (target, room, user, connection, cmd) {
 		if (typeof user.avatar === 'Number') return this.sendReply('You do not own a custom avatar.');
 		if (toId(target) !== 'confirm')
 			return this.sendReply('WARNING: If you choose to delete your avatar now, it cannot be recovered later. If you\'re sure you want to do this, enter \'/removeavatar confirm.\'');
 		delete avatarlist[user.userid];
-		fs.unlink('config/config/avatars/' + user.avatar);
+		fs.unlink('config/avatars/' + user.avatar);
 		user.avatar = 1;
 		fs.writeFile('config/customavatars.json', JSON.stringify(avatarlist));
 		this.sendReply('Your custom avatar has been successfully removed.');

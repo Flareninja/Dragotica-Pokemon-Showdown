@@ -1,3 +1,22 @@
 {
-  "users": []
+  "users": [
+    {
+      "username": "dragotic",
+      "money": 2,
+      "pointvalue": 5
+    },
+    {
+      "username": "rankuro",
+      "pointvalue": 5,
+      "money": 1
+    },
+    {
+      "username": "sundar18",
+      "pointvalue": 5
+    },
+    {
+      "username": "siiilver",
+      "pointvalue": 5
+    }
+  ]
 }

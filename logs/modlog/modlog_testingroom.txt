@@ -1,0 +1,7 @@
+[2015-09-18T16:29:33.696Z] (testingroom) Dragotic set modjoin to +.
+[2015-09-18T16:29:33.698Z] (testingroom) Dragotic set modchat to +
+[2015-09-18T16:29:33.698Z] (testingroom) Dragotic made this room hidden.
+[2015-09-18T16:29:50.333Z] (testingroom) Siiilver was appointed to Room Founder by Dragotic.
+[2015-09-18T16:34:41.552Z] (testingroom) (Dragotic has shadow banned: e4silvy, siiilver)
+[2015-09-18T16:35:16.718Z] (testingroom) (Dragotic has shadow unbanned: e4silvy, siiilver)
+[2015-09-18T16:41:36.994Z] (testingroom) (Siiilver was demoted to Room Voice by Dragotic.)

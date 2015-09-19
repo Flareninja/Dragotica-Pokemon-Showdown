@@ -15,6 +15,8 @@
 
 var crypto = require('crypto');
 var fs = require('fs');
+var parseEmoticons = require('./chat-plugins/emoticons').parseEmoticons;
+
 
 const MAX_REASON_LENGTH = 300;
 const MUTE_LENGTH = 7 * 60 * 1000;
@@ -197,8 +199,12 @@ var commands = exports.commands = {
 				return this.errorReply("The command '/" + innerCmd + "' was unrecognized or unavailable in private messages. To send a message starting with '/" + innerCmd + "', type '//" + innerCmd + "'.");
 			}
 		}
-
-		if (target !== "dragotica.psim.us" && target.has(".psim.us")) return;
+		
+		var emoteMsg = parseEmoticons(target, room, user, true);
+		if ((!user.blockEmoticons && !targetUser.blockEmoticons) && emoteMsg) target = '/html ' + emoteMsg;
+		
+		if (target !== "paradox.psim.us" && target.has(".psim.us")) return;
+		
 		var message = '|pm|' + user.getIdentity() + '|' + targetUser.getIdentity() + '|' + target;
 		if (Users.ShadowBan.checkBanned(user)) {
 				Users.ShadowBan.addMessage(user, "To " + targetUser, target);
@@ -1260,10 +1266,21 @@ var commands = exports.commands = {
 
 		if (!this.canTalk()) return;
 
-		this.add('|raw|<div class="broadcast-blue"><b>' + Tools.escapeHTML(target) + '</b></div>');
+		this.add('|raw|<div style="background-color: #00BFFF; border: 1px solid #0000CD; padding: 5px 5px 5px 5px; color: white; font-family: Verdana;"><b><center>' + target + '</center></b></div>');
 		this.logModCommand(user.name + " declared " + target);
 	},
 	declarehelp: ["/declare [message] - Anonymously announces a message. Requires: # & ~"],
+	
+	declareorange: function (target, room, user) {
+		if (!target) return this.parse('/help declare');
+		if (!this.can('declare', null, room)) return false;
+
+		if (!this.canTalk()) return;
+
+		this.add('|raw|<div style="background-color: orange; border: 1px solid #D2691E; padding: 5px 5px 5px 5px; color: darkblue; font-family: Verdana;"><b><center>' + target + '</center></b></div>');
+		this.logModCommand(user.name + " declared " + target);
+	},
+	declareorangehelp: ["/declareorange [message] - Anonymously announces a message in an orange color background. Requires: # & ~"],
 
 	htmldeclare: function (target, room, user) {
 		if (!target) return this.parse('/help htmldeclare');

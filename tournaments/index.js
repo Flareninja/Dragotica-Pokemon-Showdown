@@ -818,6 +818,7 @@ var commands = {
 			var users = usersToNames(tournament.generator.getUsers(true).sort());
 			this.sendReplyBox("<strong>" + users.length + " users remain in this tournament:</strong><br />" + Tools.escapeHTML(users.join(", ")));
 		},
+
 		getupdate: function (tournament, user) {
 			tournament.updateFor(user);
 			this.sendReply("Your tournament bracket has been updated.");
@@ -863,6 +864,7 @@ var commands = {
 			}
 		}
 	},
+
 	moderation: {
 		dq: 'disqualify',
 		disqualify: function (tournament, user, params, cmd) {

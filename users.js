@@ -1126,7 +1126,7 @@ User = (function () {
 			this.avatar = Config.customavatars[this.userid];
 		}
 
-		this.isStaff = (this.group in {'%':1, '@':1, '&':1, '~':1});
+		this.isStaff = (this.group in {'%':1, '@':1, '&':1, '♪':1, '~':1});
 		if (!this.isStaff) {
 			var staffRoom = Rooms.get('staff');
 			this.isStaff = (staffRoom && staffRoom.auth && staffRoom.auth[this.userid]);
@@ -1149,7 +1149,7 @@ User = (function () {
 	 */
 	User.prototype.setGroup = function (group, forceConfirmed) {
 		this.group = group.charAt(0);
-		this.isStaff = (this.group in {'%':1, '@':1, '&':1, '~':1});
+		this.isStaff = (this.group in {'%':1, '@':1, '&':1, '♪':1, '~':1});
 		if (!this.isStaff) {
 			var staffRoom = Rooms.get('staff');
 			this.isStaff = (staffRoom && staffRoom.auth && staffRoom.auth[this.userid]);

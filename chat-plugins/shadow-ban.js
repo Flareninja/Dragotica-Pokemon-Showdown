@@ -153,7 +153,7 @@ exports.commands = {
 		var reason = params.slice(1).join(',').trim();
 
 		if (!this.targetUser) return this.sendReply("User '" + this.targetUsername + "' not found.");
-		if (!this.can('shadowban', this.targetUser)) return;
+		if (!this.can('shadowban', this.targetUser)) return false;
 
 		var targets = addUser(this.targetUser);
 		if (targets.length === 0) {
@@ -169,7 +169,7 @@ exports.commands = {
 		if (!target) return this.sendReply("/unshadowban OR /unsban [username] - Undoes /shadowban (except the secondary command).");
 		this.splitTarget(target);
 
-		if (!this.can('shadowban')) return;
+		if (!this.can('shadowban')) return false;
 
 		var targets = removeUser(this.targetUser || this.targetUsername);
 		if (targets.length === 0) {

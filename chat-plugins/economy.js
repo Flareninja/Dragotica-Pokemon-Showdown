@@ -1,15 +1,26 @@
 var fs = require('fs');
+var request = require('request');
+var anagramWords = ['pokemon'];
+try {
+	anagramWords = fs.readFileSync('config/wordlist.txt','utf8').split('\n');
+} catch (e) {
+	request('http://pastebin.com/raw.php?i=5yQ8MLG2', function callback(error, response, body) {
+	    if (!error && response.statusCode === 200) {
+	    	fs.writeFileSync('config/wordlist.txt', body, 'utf8');
+	    }
+	});
+}
 var path = require('path');
 
 var shop = [
 	['Ticket', 'Buys a lottery ticket for a chance to win big money.', 5],
-	['Symbol', 'Buys a custom symbol to go infront of name and puts you at top of userlist. (Temporary until restart, certain symbols are blocked)', 5],
+	['Symbol', 'Buys a custom symbol to go infront of name and puts you at top of userlist. (Temporary until restart, certain symbols are blocked)', 10],
 	['Fix', 'Buys the ability to alter your current custom avatar or trainer card. (don\'t buy if you have neither)', 10],
-	['Avatar', 'Buys an custom avatar to be applied to your name (You supply. Images larger than 80x80 may not show correctly)', 20],
-	['League Room', 'Purchases a room at a reduced rate for use with a league.  A roster must be supplied with at least 10 members for this room.', 25],
-	['Trainer', 'Buys a trainer card which shows information through a command. (You supply, can be refused)', 40],
-	['Art', 'Nicely painted Pokemon related Art! Contact artist IceDragon_X for samples~', 100],
-	['Room', 'Buys a chatroom for you to own. (within reason, can be refused)', 120]
+	['Avatar', 'Buys an custom avatar to be applied to your name (You supply. Images larger than 80x80 may not show correctly)', 25],
+	['League Room', 'Purchases a room at a reduced rate for use with a league.  A roster must be supplied with at least 10 members for this room.', 30],
+	['Trainer', 'Buys a trainer card which shows information through a command. (You supply, can be refused)', 50],
+	['Staff Help', 'Buys you help of any capable staff member (Depends on the schedule of staff members)', 70],
+	['Room', 'Buys a chatroom for you to own. (within reason, can be refused)', 100]
 ];
 
 var shopDisplay = getShopDisplay(shop);
@@ -30,6 +41,8 @@ function currencyName(amount) {
 	return amount === 1 ? name : name + "s";
 }
 
+
+
 /**
  * Checks if the money input is actually money.
  *
@@ -44,6 +57,8 @@ function isMoney(money) {
 	return numMoney;
 }
 
+
+
 /**
  * Log money to logs/money.txt file.
  *
@@ -56,6 +71,8 @@ function logMoney(message) {
 	var msg = message + "\n";
 	fs.appendFile(file, date + msg);
 }
+
+
 
 /**
  * Displays the shop
@@ -176,7 +193,7 @@ exports.commands = {
 	givebuck: 'givemoney',
 	givebucks: 'givemoney',
 	givemoney: function (target, room, user) {
-		if (!this.can('potd')) return false;
+		if (!this.can('forcewin')) return false;
 		if (!target || target.indexOf(',') < 0) return this.parse('/help givemoney');
 
 		var parts = target.split(',');
@@ -200,11 +217,11 @@ exports.commands = {
 		});
 	},
 	givemoneyhelp: ["/givemoney [user], [amount] - Give a user a certain amount of money."],
-
+	
 	takebuck: 'takemoney',
 	takebucks: 'takemoney',
 	takemoney: function (target, room, user) {
-		if (!this.can('potd')) return false;
+		if (!this.can('forcewin')) return false;
 		if (!target || target.indexOf(',') < 0) return this.parse('/help takemoney');
 
 		var parts = target.split(',');
@@ -232,7 +249,7 @@ exports.commands = {
 	resetbuck: 'resetmoney',
 	resetbucks: 'resetmoney',
 	resetmoney: function (target, room, user) {
-		if (!this.can('potd')) return false;
+		if (!this.can('forcewin')) return false;
 		Database.write('money', 0, toId(target), function (err, total) {
 			if (err) throw err;
 			this.sendReply(target + " now has " + total + currencyName(total) + ".");
@@ -373,16 +390,16 @@ exports.commands = {
 			room.update();
 		});
 	},
-
+	
 	dicegame: 'startdice',
 	dicestart: 'startdice',
 	startdice: function (target, room, user) {
 		if (!this.can('broadcast', null, room)) return false;
 		if (!target) return this.parse('/help startdice');
 		if (!this.canTalk()) return this.errorReply("You can not start dice games while unable to speak.");
-
+		if (room.id !== 'casino') return this.sendReply("This command can only be used in Casino.");
 		var amount = isMoney(target);
-
+		
 		if (amount > 1000) {
 			this.sendReply("Cannot be more than 1000 bucks.")
 		}else{
@@ -397,7 +414,7 @@ exports.commands = {
 		room.dice.startTime = Date.now();
 
 		room.addRaw("<div class='infobox'><h2><center><font color=#24678d>" + user.name + " has started a dice game for </font><font color=red>" + amount + "</font><font color=#24678d>" + currencyName(amount) + ".</font><br><button name='send' value='/joindice'>Click to join.</button></center></h2></div>");
-	}
+		}
 	},
 	startdicehelp: ["/startdice [bet] - Start a dice game to gamble for money."],
 
@@ -464,6 +481,61 @@ exports.commands = {
 		delete room.dice;
 		room.addRaw("<b>" + user.name + " ended the dice game.");
 	},
+
+	anagram: function(target, room, user) {
+		if (!user.can('roommod', null, room) || !this.canTalk()) return this.sendReply('/anagram - Access denied.');
+		if (room.id !== 'games') return this.sendReply("This command can only be used in Games.");
+		if (!target && !room.anagram) return this.sendReply("Usage: /anagram [normal/pokemon] | Anagram plug made by jd.");
+		if (!this.canBroadcast()) return;
+		if (room.anagram) return this.sendReplyBox("Word: " + room.anagram.scrambledWord);
+		if (!room.anagram) room.anagram = {};
+
+		target = toId(target);
+		var theme = '';
+
+		switch (target) {
+			case 'normal':
+				theme = 'Normal';
+				room.anagram.word = anagramWords.sample().trim();
+				while (room.anagram.word.length < 4 || room.anagram.word.length > 8) room.anagram.word = anagramWords.sample().trim();
+				break;
+			default:
+			case 'pokemon':
+				theme = 'Pokemon';
+				var pokemon = Tools.dataSearch(Object.keys(Tools.data.Pokedex).sample().trim())[0];
+				room.anagram.word = pokemon.name;
+				while (pokemon.id.indexOf('mega') > -1 || pokemon.tier === 'CAP') {
+					pokemon = Tools.dataSearch(Object.keys(Tools.data.Pokedex).sample().trim())[0];
+					room.anagram.word = pokemon.name;
+				}
+				break;
+		}
+
+		room.anagram.scrambledWord = toId(room.anagram.word.split('').sort(function(){return 0.5-Math.random();}).join(''));
+		while (room.anagram.scrambledWord === toId(room.anagram.word)) room.anagram.scrambledWord = toId(room.anagram.word.split('').sort(function(){return 0.5-Math.random();}).join(''));
+
+		room.chat = function (user, message, connection) {
+			message = CommandParser.parse(message, this, user, connection);
+			if (message) {
+				this.add('|c|' + user.getIdentity(this.id) + '|' + message, true);
+				if (room.anagram && toId(message) === toId(room.anagram.word)) {
+					this.add('|raw|<div class="infobox">' + Tools.escapeHTML(user.name) + ' got the word! It was <b>' + room.anagram.word + '</b></div>');
+					delete room.anagram;
+					delete room.chat;
+				}
+			}
+		this.update();
+		};
+		return this.add('|raw|<div class="infobox">' + Tools.escapeHTML(user.name) + ' has started an anagram. Letters: <b>' + room.anagram.scrambledWord + '</b> Theme: <b>' + theme + '</b></div>');
+	},
+
+	endanagram: function(target, room, user) {
+		if (!user.can('roommod', null, room)) return this.sendReply('/endanagram - Access denied.');
+		if (!room.anagram) return this.sendReply('There is no anagram running in here.');
+		delete room.anagram;
+		room.add('|raw|<div class="infobox">The anagram game was ended by <b>' + Tools.escapeHTML(user.name) + '</b></div>');
+	},
+
 
 	ticket: 'tickets',
 	tickets: function (target, room, user) {

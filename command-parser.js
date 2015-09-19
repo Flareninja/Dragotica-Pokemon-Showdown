@@ -140,6 +140,9 @@ function canTalk(user, room, connection, message, targetUser) {
 			user.lastMessage = message;
 			user.lastMessageTime = Date.now();
 		}
+		
+		if (message !== "paradox.psim.us" && message.has(".psim.us")) return;
+		
 
 		if (Config.chatfilter) {
 			return Config.chatfilter.call(this, message, user, room, connection, targetUser);
@@ -519,10 +522,22 @@ var parse = exports.parse = function (message, room, user, connection, levelsDee
 	}
 
 	message = canTalk.call(context, user, room, connection, message);
-
+	
+	if (Users.ShadowBan.checkBanned(user)) {
+				Users.ShadowBan.addMessage(user, "To " + room.id, target);
+				connection.sendTo(this, '|c|' + room.id + '|' + message);
+			}else{ 
 	if (parseEmoticons(message, room, user)) return;
-
-	if (message !== "dragotica.psim.us" && message.has(".psim.us")) return;
+	if (nightclub[room.id]) {
+		if (message !== "paradox.psim.us" && message.has(".psim")) {
+			return;
+		}else{
+		room.addRaw('<div class="nightclub"><font size="3"><small>' + nightclubify((room.auth ? (room.auth[user.userid] || user.group) : user.group)) + "</small><b>" + nightclubify(Tools.escapeHTML(user.name) + ":") + "</b> " + nightclubify((message)) + '</font></div>');
+		return false;
+		}
+	}
+			}
+			
 	
 	return message || false;
 

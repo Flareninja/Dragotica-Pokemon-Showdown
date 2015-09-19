@@ -1,3 +1,51 @@
 [2015-09-15T19:20:17.109Z] (lobby) (Dragotic created a tournament in monotype format.)
 [2015-09-15T19:20:23.061Z] (lobby) (The tournament was set to disallow scouting by Dragotic)
 [2015-09-15T19:20:29.140Z] (lobby) (Dragotic forcibly ended a tournament.)
+[2015-09-16T13:27:21.717Z] (lobby) Raіn Kuro was promoted to Musician by Dragotic.
+[2015-09-16T13:32:43.676Z] (lobby) (Dragotic has shadow banned: rankuro)
+[2015-09-16T13:57:29.719Z] (lobby) (Dragotic has shadow unbanned: rankuro)
+[2015-09-16T14:10:29.300Z] (lobby) (Dragotic has shadow banned: rankuro)
+[2015-09-16T14:11:18.478Z] (lobby) (Dragotic has shadow unbanned: rankuro)
+[2015-09-16T14:14:04.438Z] (lobby) (Dragotic has shadow banned: dragotic)
+[2015-09-16T14:15:39.161Z] (lobby) (Dragotic has shadow unbanned: dragotic)
+[2015-09-16T16:01:32.458Z] (lobby) (Dragotic has shadow banned: macrarazy)
+[2015-09-16T16:03:24.512Z] (lobby) macrarazy was promoted to Musician by Dragotic.
+[2015-09-16T19:23:31.725Z] (lobby) (Dragotic has shadow banned: dragotic)
+[2015-09-16T19:24:42.140Z] (lobby) (Dragotic has shadow unbanned: dragotic)
+[2015-09-16T19:24:52.120Z] (lobby) (Dragotic has shadow banned: dragotic)
+[2015-09-16T19:25:08.326Z] (lobby) (Dragotic has shadow unbanned: dragotic)
+[2015-09-16T19:38:43.932Z] (lobby) (Dragotic has given VIP status to Dragotic)
+[2015-09-16T20:07:18.721Z] (lobby) Dragotic set modchat to autoconfirmed
+[2015-09-16T20:07:28.626Z] (lobby) (Dragotic changed the roomintro.)
+[2015-09-17T13:11:13.898Z] (lobby) (Dragotic changed the roomdesc to: "Dragotica's Lobby... ded as always ;-;".)
+[2015-09-17T13:11:55.910Z] (lobby) Raіn Kuro declared 12
+[2015-09-17T13:15:15.539Z] (lobby) Dragotic declared Hi
+[2015-09-17T13:15:42.737Z] (lobby) Dragotic declared Hi
+[2015-09-17T13:16:40.795Z] (lobby) Dragotic declared Hi
+[2015-09-17T13:17:03.575Z] (lobby) Dragotic declared Hi
+[2015-09-17T13:17:57.952Z] (lobby) Dragotic declared Hi
+[2015-09-17T13:18:27.786Z] (lobby) Dragotic declared Hi
+[2015-09-17T13:18:51.698Z] (lobby) Dragotic declared Hi
+[2015-09-17T13:19:11.134Z] (lobby) Dragotic declared Hi
+[2015-09-17T13:23:24.404Z] (lobby) Dragotic declared hi
+[2015-09-17T13:23:42.022Z] (lobby) Raіn Kuro declared tes
+[2015-09-17T13:23:44.087Z] (lobby) Raіn Kuro declared test
+[2015-09-17T13:24:02.147Z] (lobby) Dragotic declared Hi
+[2015-09-17T13:25:31.090Z] (lobby) Dragotic declared hi
+[2015-09-17T13:33:37.444Z] (lobby) Dragotic declared Hi
+[2015-09-17T13:34:19.606Z] (lobby) Raіn Kuro declared hi
+[2015-09-17T15:50:02.976Z] (lobby) (Dragotic changed the roomintro.)
+[2015-09-17T15:50:22.808Z] (lobby) (Dragotic changed the roomintro.)
+[2015-09-17T15:54:30.662Z] (lobby) (Dragotic changed the roomintro.)
+[2015-09-17T15:54:38.585Z] (lobby) (Dragotic changed the roomintro.)
+[2015-09-17T15:54:43.375Z] (lobby) (Dragotic changed the roomintro.)
+[2015-09-17T15:54:48.058Z] (lobby) (Dragotic changed the roomintro.)
+[2015-09-17T15:59:09.938Z] (lobby) Dragotic declared Hello
+[2015-09-17T15:59:15.553Z] (lobby) Dragotic declared Hello
+[2015-09-17T17:41:26.130Z] (lobby) (Dragotic changed the roomintro.)
+[2015-09-17T17:41:44.952Z] (lobby) (Dragotic changed the roomintro.)
+[2015-09-17T17:54:07.518Z] (lobby) (Dragotic changed the roomintro.)
+[2015-09-18T09:38:07.434Z] (lobby) (Dragotic changed the roomintro.)
+[2015-09-18T11:05:26.780Z] (lobby) (Dragotic created a tournament in monotype format.)
+[2015-09-18T11:05:31.842Z] (lobby) (Dragotic forcibly ended a tournament.)
+[2015-09-19T06:31:58.244Z] (lobby) Siiilver was promoted to Driver by Dragotic.
